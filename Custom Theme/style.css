@@ -1,0 +1,129 @@
+/*  
+Theme Name: Creative Creature Studio Theme
+Theme URI: http://torilentz.com/themes
+Author: Tori Lentz
+Author URI: http://torilentz.com
+Description: This is a theme designed to be used as a gallery template to display different artworks,
+Version: 1.0
+*/
+a{
+	color: #E3E3E3;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+body {
+    background-color: #1e1b29;
+    margin: 0;
+    font-family: bilbo-swash-caps;
+	font-weight:bolder;
+}
+
+ul, ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#page {
+	width:960px;
+	background-color: #323232;
+	font-size: 40px;
+	font-weight:normal;
+    color: #ffffff;
+	margin:auto;
+}
+#page h1 {
+	color: #FFFFFF;
+}
+#header{
+	background-color:#000000;
+	padding:60px;
+}
+#header h1{
+	margin:0;
+	font-size:65px;
+	text-align: center;
+	font-weight:normal;
+	color: #00F833;
+}
+
+#nav div{
+    background-color: #A100FF;
+    color: #FF5F00;
+    overflow: hidden;
+    padding: 0 12px 0 12px;
+}
+
+#nav a{
+    font-size: 25px;
+	color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+	float: left;
+    padding: 20px 30px 20px 30px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#nav a:hover {
+	background-color:#7D00BF;
+
+}
+#nav a:active{
+	background-color: #BB6CFF;
+}
+#main {
+	overflow:hidden;
+}
+#content {
+	text-align: center;
+	width:485px;
+	font-size:18px;
+	padding:55px;
+	line-height:30px;
+	float: left;
+}
+#content h1{
+	color:#00F833;
+	font-weight:normal;
+	font-size:26px;
+	margin-top:0;
+}
+#sidebar {
+	float:right;
+	width:225px;
+	padding:30px;
+	background-color:#8A8A8A;
+	color:black;
+	font-size:16px;
+	line-height:25px;
+	
+}
+#sidebar h2 {
+	margin-top: 0;
+	color:#9100FF;
+	font-weight:normal;
+	font-size:25px;
+}
+#footer{
+    background-color: #A100FF;
+    color: #B7B7B7;
+    overflow: hidden;
+    padding: 0 12px 0 12px;
+}
+#footer p{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#searchsubmit{
+	font-family: bilbo-swash-caps;
+	color:#ffffff;
+	background-color: #FF6700;
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+#searchform {
+	color:#ffffff;
+	font-size: 20px;
+}
